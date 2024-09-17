@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pdf Viewer</h1>
+    <canvas id="pdf-render"></canvas>
+    <div id="controls">
+        <button id="p-page">Prev page</button>
+        <button id="n-page">Next page</button>
+        <p>Page <span id="page-num"></span> of <span id="page-count"></span></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
